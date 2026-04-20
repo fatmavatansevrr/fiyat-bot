@@ -1,0 +1,137 @@
+2026-04-20 19:21:49.945 | INFO     | src.core.orchestrator:run:67 - === Price Monitor Run 20260420_192149 başladı ===
+2026-04-20 19:21:49.962 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-20 19:21:50.306 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-20 19:21:50.306 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-20 19:21:50.306 | INFO     | src.core.orchestrator:run:75 - 3 aktif ürün yüklendi.
+2026-04-20 19:21:50.306 | INFO     | src.core.orchestrator:_run_retailer:89 - --- Market başladı: trendyol ---
+2026-04-20 19:21:50.324 | INFO     | src.core.orchestrator:_run_retailer:105 - [trendyol] Eşzamanlılık: 5 ürün/an, toplam 3 ürün
+2026-04-20 19:21:50.624 | INFO     | src.core.orchestrator:_run_retailer:89 - --- Market başladı: amazon ---
+2026-04-20 19:21:50.698 | INFO     | src.core.orchestrator:_run_retailer:105 - [amazon] Eşzamanlılık: 1 ürün/an, toplam 3 ürün
+2026-04-20 19:21:50.698 | INFO     | src.core.orchestrator:_run_retailer:89 - --- Market başladı: migros ---
+2026-04-20 19:21:50.705 | INFO     | src.core.orchestrator:_run_retailer:105 - [migros] Eşzamanlılık: 5 ürün/an, toplam 3 ürün
+2026-04-20 19:21:50.966 | INFO     | src.core.orchestrator:_run_retailer:89 - --- Market başladı: carrefour ---
+2026-04-20 19:21:50.972 | INFO     | src.core.orchestrator:_run_retailer:105 - [carrefour] Eşzamanlılık: 1 ürün/an, toplam 3 ürün
+2026-04-20 19:21:50.972 | INFO     | src.core.orchestrator:_run_retailer:89 - --- Market başladı: gurmar ---
+2026-04-20 19:21:50.987 | INFO     | src.core.orchestrator:_run_retailer:105 - [gurmar] Eşzamanlılık: 5 ürün/an, toplam 3 ürün
+2026-04-20 19:21:51.282 | DEBUG    | src.adapters.gurmar:search_product:30 - [gurmar] Arama: Pril
+2026-04-20 19:21:51.283 | DEBUG    | src.adapters.gurmar:search_product:30 - [gurmar] Arama: Solo
+2026-04-20 19:21:51.284 | DEBUG    | src.adapters.gurmar:search_product:30 - [gurmar] Arama: Elseve
+2026-04-20 19:21:51.640 | DEBUG    | src.adapters.http_base:_get:88 - [trendyol] GET error: [Errno 11001] getaddrinfo failed
+2026-04-20 19:21:51.640 | DEBUG    | src.adapters.http_base:_get:88 - [trendyol] GET error: [Errno 11001] getaddrinfo failed
+2026-04-20 19:21:51.640 | DEBUG    | src.adapters.http_base:_get:88 - [trendyol] GET error: [Errno 11001] getaddrinfo failed
+2026-04-20 19:21:51.700 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Pril+S%C4%B1v%C4%B1+Bula%C5%9F%C4%B1k+Deterjan%C4%
+2026-04-20 19:21:51.700 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Solo+Tuvalet+Ka%C4%9F%C4%B1d%C4%B1+32+adet&os=1
+2026-04-20 19:21:51.702 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Elseve+%C5%9Eampuan+300ml&os=1
+2026-04-20 19:21:51.724 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Pril+S%C4%B1v%C4%B1+Bula%C5%9F%C4%B1k+Deterjan%C4%
+2026-04-20 19:21:51.724 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Elseve+%C5%9Eampuan+300ml&os=1
+2026-04-20 19:21:51.724 | DEBUG    | src.adapters.http_base:_get:85 - [trendyol] HTTP 403: https://www.trendyol.com/sr?q=Solo+Tuvalet+Ka%C4%9F%C4%B1d%C4%B1+32+adet&os=1
+2026-04-20 19:21:51.734 | INFO     | src.core.orchestrator:_run_retailer:171 - --- trendyol bitti | kontrol=3 eşleşme=0 alert=0 hata=3 ---
+2026-04-20 19:21:51.761 | DEBUG    | src.adapters.migros:_try_api:68 - [migros/api] Sonuç yok: Solo Tuvalet Kağıdı 32 adet
+2026-04-20 19:21:51.764 | DEBUG    | src.adapters.migros:_try_api:68 - [migros/api] Sonuç yok: Elseve Şampuan 300ml
+2026-04-20 19:21:51.797 | DEBUG    | src.adapters.migros:_try_api:68 - [migros/api] Sonuç yok: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-20 19:21:51.849 | WARNING  | src.adapters.migros:_try_html:126 - [migros/html] Kart bulunamadı: Solo Tuvalet Kağıdı 32 adet
+2026-04-20 19:21:51.849 | WARNING  | src.adapters.migros:_try_html:126 - [migros/html] Kart bulunamadı: Elseve Şampuan 300ml
+2026-04-20 19:21:51.885 | WARNING  | src.adapters.migros:_try_html:126 - [migros/html] Kart bulunamadı: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-20 19:21:51.891 | INFO     | src.core.orchestrator:_run_retailer:171 - --- migros bitti | kontrol=3 eşleşme=0 alert=0 hata=3 ---
+2026-04-20 19:21:51.968 | WARNING  | src.adapters.gurmar:search_product:48 - [gurmar] Kart bulunamadı: Elseve
+2026-04-20 19:21:51.994 | WARNING  | src.adapters.gurmar:search_product:48 - [gurmar] Kart bulunamadı: Pril
+2026-04-20 19:21:52.056 | WARNING  | src.adapters.gurmar:search_product:48 - [gurmar] Kart bulunamadı: Solo
+2026-04-20 19:21:52.058 | INFO     | src.core.orchestrator:_run_retailer:171 - --- gurmar bitti | kontrol=3 eşleşme=0 alert=0 hata=3 ---
+2026-04-20 19:21:57.427 | DEBUG    | src.adapters.carrefour:search_product:27 - [carrefour] Arama: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-20 19:22:06.319 | DEBUG    | src.adapters.amazon:ensure_region:34 - [amazon] Bölge zaten İzmir
+2026-04-20 19:22:06.319 | DEBUG    | src.adapters.amazon:search_product:85 - [amazon] Arama: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-20 19:22:08.308 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    365.00 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı (1 x 4 KG) ve 
+2026-04-20 19:22:08.363 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |     54.00 TL | Pril Türkiye Serisi - Amasya Elma Kokulu Elde Yıkama Sı
+2026-04-20 19:22:08.422 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    194.00 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-20 19:22:08.483 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 95 |    112.00 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amasya El
+2026-04-20 19:22:08.538 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 95 |    112.00 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amasya El
+2026-04-20 19:22:08.609 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 83 |    126.00 TL | Pril Power Limon Kokulu 5+ Yağ Çözme Etkili Elde Yıkama
+2026-04-20 19:22:08.668 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    194.00 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-20 19:22:08.725 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    171.00 TL | Pril Elma Kokulu Elde Yıkama Sıvı Bulaşık Deterjanı 1 x
+2026-04-20 19:22:08.725 | INFO     | src.adapters.amazon:search_product:132 - [amazon] 112.00 TL  score=95  Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amas
+2026-04-20 19:22:08.739 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Pril Sıvı Bulaşık Deterjanı: 112.00 TL
+2026-04-20 19:22:08.739 | DEBUG    | src.adapters.amazon:search_product:85 - [amazon] Arama: Solo Tuvalet Kağıdı 32 adet
+2026-04-20 19:22:09.194 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-20 19:22:09.221 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-20 19:22:09.248 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-20 19:22:09.274 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-20 19:22:09.302 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-20 19:22:09.329 | DEBUG    | src.adapters.carrefour:search_product:65 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-20 19:22:09.364 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    119.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Losyon Aloe Ver
+2026-04-20 19:22:09.394 | DEBUG    | src.adapters.carrefour:search_product:65 -    40 |    139.90 TL | Pril Bulaşık Makinesi Deterjanı Makine Temizleyici Kaps
+2026-04-20 19:22:09.394 | INFO     | src.adapters.carrefour:search_product:73 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-20 19:22:09.419 | DEBUG    | src.core.discount:evaluate:41 - [carrefour] Pril Sıvı Bulaşık Deterjanı | baseline=112.00  now=99.90  drop=10.8%  threshold=25.0%
+2026-04-20 19:22:09.420 | DEBUG    | src.adapters.carrefour:search_product:27 - [carrefour] Arama: Solo Tuvalet Kağıdı 32 adet
+2026-04-20 19:22:10.773 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    329.99 TL | Solo Tuvalet Kağıdı 32'li Beyaz
+2026-04-20 19:22:10.838 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 40 |    619.00 TL | Flushable Islak Tuvalet Kağıdı Kovalı Set 500 Adet – 50
+2026-04-20 19:22:10.910 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |    249.95 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-20 19:22:10.959 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |    239.00 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 40’lı
+2026-04-20 19:22:11.017 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |     99.00 TL | Solo Tuvalet Kağıdı Bambu Katkılı 16'lı
+2026-04-20 19:22:11.064 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 80 |    329.99 TL | Solo Tuvalet Kağıdı 32'li Beyaz
+2026-04-20 19:22:11.110 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 83 |    361.00 TL | SOLO Tuvalet Kağıdı 48 li Bambu
+2026-04-20 19:22:11.157 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 55 |    188.10 TL | Teno Pudra Kokulu Tuvalet Kağıdı 32 Adet
+2026-04-20 19:22:11.157 | INFO     | src.adapters.amazon:search_product:132 - [amazon] 249.95 TL  score=86  SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-20 19:22:11.170 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Solo Tuvalet Kağıdı: 249.95 TL
+2026-04-20 19:22:11.170 | DEBUG    | src.adapters.amazon:search_product:85 - [amazon] Arama: Elseve Şampuan 300ml
+2026-04-20 19:22:13.375 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 58 |    896.00 TL | L'Oréal Professionnel Paris Serie Expert Vitamino Color
+2026-04-20 19:22:13.430 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 55 |    677.00 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-20 19:22:13.485 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 55 |    386.62 TL | Bioxcin Forte Şampuan 300ml 3al2 Öde
+2026-04-20 19:22:13.536 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 55 |   1048.00 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-20 19:22:13.595 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |    174.92 TL | L'Oréal Paris Elseve Hydra [Hyaluronic] Nem Dolduran Ba
+2026-04-20 19:22:13.658 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |    136.03 TL | L'Oréal Paris Elseve Colorvive Renk Koruyucu Bakım Şamp
+2026-04-20 19:22:13.708 | DEBUG    | src.adapters.amazon:search_product:123 -   score= 86 |    139.00 TL | L'Oreal Paris Elseve Mucizevi Yağ Besleyici Bakım Şampu
+2026-04-20 19:22:13.791 | DEBUG    | src.adapters.amazon:search_product:123 -   score=113 |    179.95 TL | ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampuanı 30
+2026-04-20 19:22:13.791 | INFO     | src.adapters.amazon:search_product:132 - [amazon] 179.95 TL  score=113  ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampua
+2026-04-20 19:22:13.808 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Elseve Şampuan: 179.95 TL
+2026-04-20 19:22:13.889 | INFO     | src.core.orchestrator:_run_retailer:171 - --- amazon bitti | kontrol=3 eşleşme=3 alert=0 hata=0 ---
+2026-04-20 19:22:15.324 | WARNING  | src.adapters.carrefour:search_product:36 - [carrefour] Sonuç yok: Solo Tuvalet Kağıdı 32 adet
+2026-04-20 19:22:15.324 | DEBUG    | src.adapters.carrefour:search_product:27 - [carrefour] Arama: Elseve Şampuan 300ml
+2026-04-20 19:22:21.219 | WARNING  | src.adapters.carrefour:search_product:36 - [carrefour] Sonuç yok: Elseve Şampuan 300ml
+2026-04-20 19:22:21.287 | INFO     | src.core.orchestrator:_run_retailer:171 - --- carrefour bitti | kontrol=3 eşleşme=1 alert=0 hata=2 ---
+2026-04-20 19:22:21.974 | INFO     | src.core.orchestrator:_print_summary:179 - === Çalışma tamamlandı | kontrol=15 eşleşme=4 alert=0 hata=11 ===
+2026-04-20 19:37:39.075 | DEBUG    | src.adapters.migros:search_product:31 - [migros] Arama: Ulker Cokokrem
+2026-04-20 19:37:44.720 | DEBUG    | src.adapters.migros:search_product:80 -     0 |    112.95 TL | Ülker Çokokrem 400 G
+2026-04-20 19:37:44.751 | DEBUG    | src.adapters.migros:search_product:80 -     0 |    244.95 TL | Ülker Çokokrem 950 G
+2026-04-20 19:37:44.782 | DEBUG    | src.adapters.migros:search_product:80 -     0 |    269.95 TL | Ülker Çokokrem Cam 650 G
+2026-04-20 19:37:44.803 | DEBUG    | src.adapters.migros:search_product:80 -     0 |    154.95 TL | Ülker Çokokrem Cam 350 G
+2026-04-20 19:37:44.841 | DEBUG    | src.adapters.migros:search_product:80 -     0 |    194.95 TL | Ülker Çokokrem Pet Fındık Ezmesi 350 G
+2026-04-20 19:37:44.873 | DEBUG    | src.adapters.migros:search_product:80 -     0 |     28.50 TL | Çokokrem Tüp 40 G
+2026-04-20 19:37:44.905 | DEBUG    | src.adapters.migros:search_product:80 -     0 |     59.95 TL | Ülker Pötibör Çokokrem Kremalı Sandviç 229 G
+2026-04-20 19:37:44.905 | WARNING  | src.adapters.migros:search_product:94 - [migros] Güvenilir eşleşme yok (score=0): Ulker Cokokrem
+2026-04-20 19:37:45.547 | DEBUG    | src.adapters.gurmar:search_product:35 - [gurmar] Arama: Ulker
+2026-04-20 19:37:48.079 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     20.00 TL | Ülker Antep Fıstıklı Milföy 28 Gr
+2026-04-20 19:37:48.116 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     57.50 TL | Ülker Mini All Star Karma Paket 91 Gr
+2026-04-20 19:37:48.149 | DEBUG    | src.adapters.gurmar:search_product:82 -     3 |     53.95 TL | Ülker %80 Kakaolu Bitter Kare Çikolata 60 Gr
+2026-04-20 19:37:48.181 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     35.00 TL | Ülker 9 Kat Tat Fındıklı Gofret 114 Gr
+2026-04-20 19:37:48.214 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     35.00 TL | Ülker 9 Kat Tat İnce İnce Çilek Kremalı Gofret 114 Gr
+2026-04-20 19:37:48.248 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     76.00 TL | Ülker Albeni Bar 4'Lü
+2026-04-20 19:37:48.276 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     20.00 TL | Ülker Albeni Karamelli Çikolata Bar 40 Gr
+2026-04-20 19:37:48.304 | DEBUG    | src.adapters.gurmar:search_product:82 -     0 |     23.50 TL | Ülker Albeni Sütlü Çikolata Kaplı Karamelli Bar Çikolat
+2026-04-20 19:37:48.304 | WARNING  | src.adapters.gurmar:search_product:96 - [gurmar] Güvenilir eşleşme yok (score=3): Ulker
+2026-04-20 19:40:44.804 | DEBUG    | src.adapters.migros:search_product:31 - [migros] Arama: Ulker Cokokrem
+2026-04-20 19:40:50.551 | DEBUG    | src.adapters.migros:search_product:80 -    80 |    112.95 TL | Ülker Çokokrem 400 G
+2026-04-20 19:40:50.589 | DEBUG    | src.adapters.migros:search_product:80 -    80 |    244.95 TL | Ülker Çokokrem 950 G
+2026-04-20 19:40:50.623 | DEBUG    | src.adapters.migros:search_product:80 -    80 |    269.95 TL | Ülker Çokokrem Cam 650 G
+2026-04-20 19:40:50.663 | DEBUG    | src.adapters.migros:search_product:80 -    80 |    154.95 TL | Ülker Çokokrem Cam 350 G
+2026-04-20 19:40:50.700 | DEBUG    | src.adapters.migros:search_product:80 -    83 |    194.95 TL | Ülker Çokokrem Pet Fındık Ezmesi 350 G
+2026-04-20 19:40:50.744 | DEBUG    | src.adapters.migros:search_product:80 -    40 |     28.50 TL | Çokokrem Tüp 40 G
+2026-04-20 19:40:50.781 | DEBUG    | src.adapters.migros:search_product:80 -    80 |     59.95 TL | Ülker Pötibör Çokokrem Kremalı Sandviç 229 G
+2026-04-20 19:40:50.781 | INFO     | src.adapters.migros:search_product:91 - [migros] 194.95 TL  score=83  Ülker Çokokrem Pet Fındık Ezmesi 350 G
+2026-04-20 19:40:51.456 | DEBUG    | src.adapters.gurmar:search_product:35 - [gurmar] Arama: Ulker
+2026-04-20 19:40:54.175 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     20.00 TL | Ülker Antep Fıstıklı Milföy 28 Gr
+2026-04-20 19:40:54.204 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     57.50 TL | Ülker Mini All Star Karma Paket 91 Gr
+2026-04-20 19:40:54.233 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     53.95 TL | Ülker %80 Kakaolu Bitter Kare Çikolata 60 Gr
+2026-04-20 19:40:54.261 | DEBUG    | src.adapters.gurmar:search_product:82 -    43 |     35.00 TL | Ülker 9 Kat Tat Fındıklı Gofret 114 Gr
+2026-04-20 19:40:54.345 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     35.00 TL | Ülker 9 Kat Tat İnce İnce Çilek Kremalı Gofret 114 Gr
+2026-04-20 19:40:54.377 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     76.00 TL | Ülker Albeni Bar 4'Lü
+2026-04-20 19:40:54.412 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     20.00 TL | Ülker Albeni Karamelli Çikolata Bar 40 Gr
+2026-04-20 19:40:54.441 | DEBUG    | src.adapters.gurmar:search_product:82 -    40 |     23.50 TL | Ülker Albeni Sütlü Çikolata Kaplı Karamelli Bar Çikolat
+2026-04-20 19:40:54.441 | INFO     | src.adapters.gurmar:search_product:93 - [gurmar] 35.00 TL  score=43  Ülker 9 Kat Tat Fındıklı Gofret 114 Gr
+2026-04-20 19:40:55.202 | DEBUG    | src.adapters.carrefour:search_product:32 - [carrefour] Arama: Samsung Galaxy S24 128GB
+2026-04-20 19:41:05.267 | DEBUG    | src.adapters.carrefour:search_product:89 -    40 |   1699.00 TL | Samsung Galaxy Fit3 Gümüş Akıllı Saat
+2026-04-20 19:41:05.311 | DEBUG    | src.adapters.carrefour:search_product:89 -    40 |   1699.00 TL | Samsung Galaxy Fit3 Gri Akıllı Saat
+2026-04-20 19:41:05.351 | DEBUG    | src.adapters.carrefour:search_product:89 -    40 |  13999.00 TL | Samsung Galaxy Tab S9 FE SM-X510 128 GB 10.9" Silver Ta
+2026-04-20 19:41:05.402 | DEBUG    | src.adapters.carrefour:search_product:89 -    40 |   5499.00 TL | Samsung SM-X110 Galaxy Tab A9 4/64 Gb Mistik Lacivert
+2026-04-20 19:41:05.454 | DEBUG    | src.adapters.carrefour:search_product:89 -    55 |   6199.00 TL | Samsung Galaxy Tab A9 Wi-Fi SM-X110 8/128GB 8.7" Tablet
+2026-04-20 19:41:05.499 | DEBUG    | src.adapters.carrefour:search_product:89 -    55 |   6199.00 TL | Samsung Galaxy Tab A9 Wi-Fi SM-X110 8/128GB 8.7" Tablet
+2026-04-20 19:41:05.499 | INFO     | src.adapters.carrefour:search_product:100 - [carrefour] 6199.00 TL  score=55  Samsung Galaxy Tab A9 Wi-Fi SM-X110 8/128GB 8.7" T

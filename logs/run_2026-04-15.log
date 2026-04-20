@@ -1,0 +1,306 @@
+2026-04-15 22:23:04.591 | INFO     | src.core.orchestrator:run:25 - === Price Monitor Run 20260415_222304 started ===
+2026-04-15 22:23:04.594 | DEBUG    | src.core.orchestrator:_load_products:45 - _load_products: stub — will be implemented in Phase 2
+2026-04-15 22:23:04.594 | WARNING  | src.core.orchestrator:run:30 - No active products found. Exiting.
+2026-04-15 22:27:48.461 | INFO     | src.core.orchestrator:run:27 - === Price Monitor Run 20260415_222748 started ===
+2026-04-15 22:27:48.485 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 22:27:48.813 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-15 22:27:48.813 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-15 22:27:48.814 | INFO     | src.core.orchestrator:run:36 - Loaded 3 active products.
+2026-04-15 22:27:48.814 | INFO     | src.core.orchestrator:_run_retailer:47 - --- Retailer: trendyol ---
+2026-04-15 22:27:48.819 | DEBUG    | src.core.orchestrator:_run_retailer:62 - Adapter for trendyol not yet implemented (Phase 4)
+2026-04-15 22:27:48.831 | INFO     | src.core.orchestrator:_run_retailer:47 - --- Retailer: amazon ---
+2026-04-15 22:27:48.841 | DEBUG    | src.core.orchestrator:_run_retailer:62 - Adapter for amazon not yet implemented (Phase 4)
+2026-04-15 22:27:48.849 | DEBUG    | src.core.orchestrator:run:40 - Skipping migros (disabled)
+2026-04-15 22:27:48.849 | DEBUG    | src.core.orchestrator:run:40 - Skipping carrefour (disabled)
+2026-04-15 22:27:48.850 | DEBUG    | src.core.orchestrator:run:40 - Skipping gurmar (disabled)
+2026-04-15 22:27:48.850 | INFO     | src.core.orchestrator:_print_summary:72 - === Run complete | checked=0 matched=0 alerts=0 failed=0 ===
+2026-04-15 23:03:42.874 | WARNING  | src.notifications.telegram:_send:33 - [telegram] API error 400: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2026-04-15 23:05:45.864 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:05:46.204 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-15 23:05:46.204 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-15 23:06:32.004 | INFO     | src.core.orchestrator:run:44 - === Price Monitor Run 20260415_230632 started ===
+2026-04-15 23:06:32.004 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:06:32.304 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-15 23:06:32.304 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-15 23:06:32.311 | INFO     | src.core.orchestrator:run:52 - Loaded 3 active products.
+2026-04-15 23:06:32.311 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: trendyol ---
+2026-04-15 23:06:54.769 | WARNING  | src.adapters.trendyol:ensure_region:49 - [trendyol] Could not open location modal — proceeding without region
+2026-04-15 23:06:54.770 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Omo Matik Color 5 kg
+2026-04-15 23:06:58.027 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Omo Matik Color 5 kg
+2026-04-15 23:06:58.027 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:07:01.140 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Ariel Dağ Esintisi 4 kg
+2026-04-15 23:07:01.140 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Nestle Nescafe Classic 200g
+2026-04-15 23:07:04.525 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Nestle Nescafe Classic 200g
+2026-04-15 23:07:04.637 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: amazon ---
+2026-04-15 23:07:11.880 | DEBUG    | src.adapters.amazon:ensure_region:31 - [amazon] Region already Izmir
+2026-04-15 23:07:11.880 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Omo Matik Color 5 kg
+2026-04-15 23:07:15.753 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 49 |    399.00 TL | Omo Active Beyazlar ve Renkliler için Toz Çamaşır Deter
+2026-04-15 23:07:15.806 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 64 |    298.90 TL | Omo Sık Yıkananlar Beyazlar ve Renkliler Toz Deterjanı 
+2026-04-15 23:07:15.861 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 24 |    459.90 TL | Ariel Dağ Esintisi Renklilere Özel 5 kg Hızlı Çözünme T
+2026-04-15 23:07:15.917 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 64 |    298.90 TL | Omo Sık Yıkananlar Beyazlar ve Renkliler Toz Deterjanı 
+2026-04-15 23:07:15.975 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 61 |    379.90 TL | OMO Active Fresh Beyazlar Toz Deterjanı 5.5 kg
+2026-04-15 23:07:16.031 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 49 |    399.00 TL | Omo Active Beyazlar ve Renkliler için Toz Çamaşır Deter
+2026-04-15 23:07:16.090 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    349.90 TL | Omo Matik Color Deterjan 1500 gr 10 Yıkama
+2026-04-15 23:07:16.144 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 15 |    475.00 TL | Migros Color Matik 5 Kg 33 Yıkama, 200200030130485
+2026-04-15 23:07:16.144 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 349.90 TL  score=83  Omo Matik Color Deterjan 1500 gr 10 Yıkama
+2026-04-15 23:07:16.170 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Omo Matik Color: 349.90 TL
+2026-04-15 23:07:18.180 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:07:21.905 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    399.90 TL | Ariel Dağ Esintisi Renklilere Özel Çamaşır Deterjanı 7 
+2026-04-15 23:07:21.962 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    399.90 TL | Ariel Dağ Esintisi 7 Kg Hızlı Çözünme Toz Çamaşır Deter
+2026-04-15 23:07:22.028 | DEBUG    | src.adapters.amazon:search_product:127 -   score=101 |    350.00 TL | Ariel Dağ Esintisi 4 Kg Hızlı Çözünme Toz Çamaşır Deter
+2026-04-15 23:07:22.084 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    119.00 TL | Ariel Dağ Esintisi 1,5 Kg Hızlı Çözünme Toz Çamaşır Det
+2026-04-15 23:07:22.153 | DEBUG    | src.adapters.amazon:search_product:127 -   score=101 |    350.00 TL | Ariel Dağ Esintisi 4 Kg Hızlı Çözünme Toz Çamaşır Deter
+2026-04-15 23:07:22.231 | DEBUG    | src.adapters.amazon:search_product:127 -   score=101 |    365.00 TL | Ariel Dağ Esintisi Renklilere Özel 4 kg Hızlı Çözünme T
+2026-04-15 23:07:22.342 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    399.90 TL | Ariel Dağ Esintisi 7 Kg Hızlı Çözünme Toz Çamaşır Deter
+2026-04-15 23:07:22.419 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    399.90 TL | Ariel Dağ Esintisi Renklilere Özel Çamaşır Deterjanı 7 
+2026-04-15 23:07:22.419 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 350.00 TL  score=101  Ariel Dağ Esintisi 4 Kg Hızlı Çözünme Toz Çamaşır 
+2026-04-15 23:07:22.439 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Ariel Dağ Esintisi: 350.00 TL
+2026-04-15 23:07:24.442 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Nestle Nescafe Classic 200g
+2026-04-15 23:07:28.433 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 43 |    309.00 TL | Nescafé Nescafe Classic Çözünebilir Kahve Ekopaket, 200
+2026-04-15 23:07:28.511 | DEBUG    | src.adapters.amazon:search_product:127 -   score=  3 |    359.55 TL | Nescafé Classic Çözünebilir Kahve Kavanoz, 200 g
+2026-04-15 23:07:28.584 | DEBUG    | src.adapters.amazon:search_product:127 -   score=  0 |   1299.90 TL | Nescafé Classic Teneke Kutu 1000 Gr
+2026-04-15 23:07:28.656 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 43 |    618.00 TL | Nescafé Nescafe Classic Çözünebilir Kahve Ekopaket, 200
+2026-04-15 23:07:28.715 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 43 |    830.44 TL | Nescafé Nescafe Classic Kahve 600 Gr
+2026-04-15 23:07:28.769 | DEBUG    | src.adapters.amazon:search_product:127 -   score=  0 |   1347.00 TL | NESCAFÉ Classic 2gr 200lü
+2026-04-15 23:07:28.844 | DEBUG    | src.adapters.amazon:search_product:127 -   score=  6 |    862.80 TL | Nescafé Classic Hazır Kahve 200 gr + Nestlé Coffee Mate
+2026-04-15 23:07:28.844 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 309.00 TL  score=43  Nescafé Nescafe Classic Çözünebilir Kahve Ekopaket
+2026-04-15 23:07:28.882 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Nestle Nescafe Classic: 309.00 TL
+2026-04-15 23:07:30.986 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: migros ---
+2026-04-15 23:10:23.942 | WARNING  | src.adapters.migros:ensure_region:84 - [migros] Region not confirmed — continuing anyway
+2026-04-15 23:10:23.943 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Omo Matik Color 5 kg
+2026-04-15 23:10:27.028 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Omo Matik Color 5 kg
+2026-04-15 23:10:27.029 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:10:29.920 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Ariel Dağ Esintisi 4 kg
+2026-04-15 23:10:29.920 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Nestle Nescafe Classic 200g
+2026-04-15 23:10:32.766 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Nestle Nescafe Classic 200g
+2026-04-15 23:10:32.857 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: carrefour ---
+2026-04-15 23:12:28.521 | INFO     | src.adapters.carrefour:ensure_region:75 - [carrefour] Store set to Izmir / Bornova
+2026-04-15 23:12:28.521 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Omo Matik Color 5 kg
+2026-04-15 23:12:31.228 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Omo Matik Color 5 kg
+2026-04-15 23:12:31.308 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_001.png
+2026-04-15 23:12:31.308 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:12:33.893 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:12:33.959 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_002.png
+2026-04-15 23:12:33.959 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Nestle Nescafe Classic 200g
+2026-04-15 23:12:36.533 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Nestle Nescafe Classic 200g
+2026-04-15 23:12:36.605 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_003.png
+2026-04-15 23:12:37.013 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: gurmar ---
+2026-04-15 23:12:38.199 | DEBUG    | src.adapters.gurmar:ensure_region:20 - [gurmar] Izmir-only store — no region selection needed
+2026-04-15 23:12:38.202 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Omo Matik Color 5 kg
+2026-04-15 23:12:46.954 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:13:20.001 | WARNING  | src.adapters.gurmar:search_product:58 - [gurmar] No results: Omo Matik Color 5 kg
+2026-04-15 23:13:20.197 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png
+2026-04-15 23:13:20.198 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:13:27.628 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:14:00.162 | WARNING  | src.adapters.gurmar:search_product:58 - [gurmar] No results: Ariel Dağ Esintisi 4 kg
+2026-04-15 23:14:00.395 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_002.png
+2026-04-15 23:14:00.396 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Nestle Nescafe Classic 200g
+2026-04-15 23:14:07.780 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:14:20.135 | ERROR    | src.core.orchestrator:_run_retailer:117 - [gurmar] Adapter crashed: BrowserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\vatan\AppData\Local\ms-playwright\chromium-1117\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --lang=tr-TR --user-data-dir=C:\Users\vatan\AppData\Local\Temp\playwright_chromiumdev_profile-XXXXXXsYgbsi --remote-debugging-pipe --no-startup-window
+<launched> pid=21352
+[pid=21352] <gracefully close start>
+2026-04-15 23:14:20.761 | INFO     | src.core.orchestrator:_print_summary:127 - === Run complete | checked=15 matched=3 alerts=0 failed=14 ===
+2026-04-15 23:20:18.875 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:20:19.187 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-15 23:20:19.187 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-15 23:20:35.686 | INFO     | src.core.orchestrator:run:44 - === Price Monitor Run 20260415_232035 started ===
+2026-04-15 23:20:35.686 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:20:35.935 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-15 23:20:35.936 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-15 23:20:35.936 | INFO     | src.core.orchestrator:run:52 - Loaded 3 active products.
+2026-04-15 23:20:35.937 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: trendyol ---
+2026-04-15 23:20:55.084 | WARNING  | src.adapters.trendyol:ensure_region:49 - [trendyol] Could not open location modal — proceeding without region
+2026-04-15 23:20:55.091 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:20:58.271 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:20:58.271 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:21:01.505 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:21:01.505 | DEBUG    | src.adapters.trendyol:search_product:91 - [trendyol] Search: Elseve Şampuan 300ml
+2026-04-15 23:21:05.142 | WARNING  | src.adapters.trendyol:search_product:142 - [trendyol] Weak match (score=0): Elseve Şampuan 300ml
+2026-04-15 23:21:05.248 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: amazon ---
+2026-04-15 23:21:17.403 | WARNING  | src.adapters.amazon:ensure_region:77 - [amazon] ensure_region error: Page.click: Timeout 5000ms exceeded.
+Call log:
+waiting for locator("#nav-global-location-popover-link, #glow-ingress-block")
+
+2026-04-15 23:21:17.403 | WARNING  | src.adapters.amazon:ensure_region:79 - [amazon] Region not confirmed — continuing anyway
+2026-04-15 23:21:17.403 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:21:21.638 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |     55.96 TL | Pril Türkiye Serisi - Amasya Elma Kokulu Elde Yıkama Sı
+2026-04-15 23:21:21.741 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |     70.18 TL | Pril Adana Portakalı Türkiye Serisi Sıvı Bulaşık Deterj
+2026-04-15 23:21:21.813 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    409.80 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı (1 x 4 KG) ve 
+2026-04-15 23:21:21.886 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    199.90 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-15 23:21:21.957 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 95 |    118.46 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amasya El
+2026-04-15 23:21:22.037 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    132.79 TL | Pril Power Limon Kokulu 5+ Yağ Çözme Etkili Elde Yıkama
+2026-04-15 23:21:22.097 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    199.90 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-15 23:21:22.162 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    209.90 TL | Pril Elma Kokulu Elde Yıkama Sıvı Bulaşık Deterjanı 1 x
+2026-04-15 23:21:22.163 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 118.46 TL  score=95  Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amas
+2026-04-15 23:21:22.185 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Pril Sıvı Bulaşık Deterjanı: 118.46 TL
+2026-04-15 23:21:24.199 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:21:28.052 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 40 |    619.00 TL | Flushable Islak Tuvalet Kağıdı Kovalı Set 500 Adet – 50
+2026-04-15 23:21:28.120 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    248.11 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-15 23:21:28.172 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    349.99 TL | Solo Tuvalet Kağıdı 32'li Beyaz
+2026-04-15 23:21:28.226 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    312.71 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 40’lı
+2026-04-15 23:21:28.277 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    159.95 TL | Solo Tuvalet Kağıdı Bambu Katkılı 16'lı
+2026-04-15 23:21:28.327 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    367.11 TL | SOLO Tuvalet Kağıdı 48 li Bambu
+2026-04-15 23:21:28.377 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    209.01 TL | Teno Pudra Kokulu Tuvalet Kağıdı 32 Adet
+2026-04-15 23:21:28.427 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    127.57 TL | Solo Tuvalet Kağıdı Bambu Katkılı 12'li
+2026-04-15 23:21:28.427 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 248.11 TL  score=86  SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-15 23:21:28.468 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Solo Tuvalet Kağıdı: 248.11 TL
+2026-04-15 23:21:30.476 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Elseve Şampuan 300ml
+2026-04-15 23:21:34.257 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    677.00 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-15 23:21:34.563 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 58 |    896.00 TL | L'Oréal Professionnel Paris Serie Expert Vitamino Color
+2026-04-15 23:21:34.625 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    870.05 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-15 23:21:34.681 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    381.00 TL | Bioxcin Forte Şampuan 300ml 3al2 Öde
+2026-04-15 23:21:34.736 | DEBUG    | src.adapters.amazon:search_product:127 -   score=113 |    161.95 TL | ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampuanı 30
+2026-04-15 23:21:34.782 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    136.03 TL | L'Oréal Paris Elseve Colorvive Renk Koruyucu Bakım Şamp
+2026-04-15 23:21:34.844 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    174.92 TL | L'Oréal Paris Elseve Hydra [Hyaluronic] Nem Dolduran Ba
+2026-04-15 23:21:34.895 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    139.00 TL | L'Oreal Paris Elseve Mucizevi Yağ Besleyici Bakım Şampu
+2026-04-15 23:21:34.895 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 161.95 TL  score=113  ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampua
+2026-04-15 23:21:34.919 | INFO     | src.core.discount:evaluate:32 - [amazon] Baseline set → Elseve Şampuan: 161.95 TL
+2026-04-15 23:21:37.018 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: migros ---
+2026-04-15 23:24:30.055 | WARNING  | src.adapters.migros:ensure_region:84 - [migros] Region not confirmed — continuing anyway
+2026-04-15 23:24:30.055 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:24:33.313 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:24:33.314 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:24:36.297 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:24:36.297 | DEBUG    | src.adapters.migros:search_product:92 - [migros] Search: Elseve Şampuan 300ml
+2026-04-15 23:24:39.169 | WARNING  | src.adapters.migros:search_product:143 - [migros] Weak match (score=0): Elseve Şampuan 300ml
+2026-04-15 23:24:39.256 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: carrefour ---
+2026-04-15 23:26:34.428 | INFO     | src.adapters.carrefour:ensure_region:75 - [carrefour] Store set to Izmir / Bornova
+2026-04-15 23:26:34.429 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:26:37.210 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:26:37.312 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_001.png
+2026-04-15 23:26:37.312 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:26:39.912 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:26:39.982 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_002.png
+2026-04-15 23:26:39.982 | DEBUG    | src.adapters.carrefour:search_product:90 - [carrefour] Search: Elseve Şampuan 300ml
+2026-04-15 23:26:42.566 | WARNING  | src.adapters.carrefour:search_product:100 - [carrefour] No results: Elseve Şampuan 300ml
+2026-04-15 23:26:42.646 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → carrefour_noresult_003.png
+2026-04-15 23:26:43.734 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: gurmar ---
+2026-04-15 23:26:44.665 | DEBUG    | src.adapters.gurmar:ensure_region:20 - [gurmar] Izmir-only store — no region selection needed
+2026-04-15 23:26:44.665 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:26:52.625 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:27:25.246 | WARNING  | src.adapters.gurmar:search_product:58 - [gurmar] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:27:25.461 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png
+2026-04-15 23:27:25.461 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:27:32.797 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:28:05.339 | WARNING  | src.adapters.gurmar:search_product:58 - [gurmar] No results: Solo Tuvalet Kağıdı 32 adet
+2026-04-15 23:28:05.603 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_002.png
+2026-04-15 23:28:05.604 | DEBUG    | src.adapters.gurmar:search_product:29 - [gurmar] Search: Elseve Şampuan 300ml
+2026-04-15 23:28:12.893 | DEBUG    | src.adapters.gurmar:search_product:43 - [gurmar] No cards found via URL search, trying input search
+2026-04-15 23:28:45.514 | WARNING  | src.adapters.gurmar:search_product:58 - [gurmar] No results: Elseve Şampuan 300ml
+2026-04-15 23:28:45.757 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_003.png
+2026-04-15 23:28:46.479 | INFO     | src.core.orchestrator:_print_summary:127 - === Run complete | checked=15 matched=3 alerts=0 failed=12 ===
+2026-04-15 23:47:03.217 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:47:04.084 | DEBUG    | src.adapters.trendyol:search_product:20 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:08.307 | WARNING  | src.adapters.trendyol:search_product:67 - [trendyol] No confident match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:09.098 | DEBUG    | src.adapters.migros:search_product:19 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:17.810 | DEBUG    | src.adapters.migros:search_product:59 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-15 23:49:17.850 | DEBUG    | src.adapters.migros:search_product:59 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-15 23:49:17.884 | DEBUG    | src.adapters.migros:search_product:59 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-15 23:49:17.925 | DEBUG    | src.adapters.migros:search_product:59 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-15 23:49:17.958 | DEBUG    | src.adapters.migros:search_product:59 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-15 23:49:17.986 | DEBUG    | src.adapters.migros:search_product:59 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-15 23:49:18.017 | DEBUG    | src.adapters.migros:search_product:59 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-15 23:49:18.046 | DEBUG    | src.adapters.migros:search_product:59 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-15 23:49:18.046 | INFO     | src.adapters.migros:search_product:67 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-15 23:49:18.770 | DEBUG    | src.adapters.carrefour:search_product:18 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:30.655 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-15 23:49:30.683 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-15 23:49:30.717 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-15 23:49:30.760 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-15 23:49:30.799 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-15 23:49:30.835 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-15 23:49:30.869 | DEBUG    | src.adapters.carrefour:search_product:62 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-15 23:49:30.909 | DEBUG    | src.adapters.carrefour:search_product:62 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-15 23:49:30.909 | INFO     | src.adapters.carrefour:search_product:70 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-15 23:49:31.761 | DEBUG    | src.adapters.gurmar:search_product:18 - [gurmar] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:36.302 | WARNING  | src.adapters.gurmar:search_product:27 - [gurmar] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:49:36.409 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png
+2026-04-15 23:54:04.696 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:54:07.435 | DEBUG    | src.adapters.trendyol:search_product:21 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:12.345 | WARNING  | src.adapters.trendyol:search_product:68 - [trendyol] No confident match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:16.509 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:25.517 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-15 23:56:25.628 | DEBUG    | src.adapters.migros:search_product:60 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-15 23:56:25.691 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-15 23:56:25.744 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-15 23:56:25.794 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-15 23:56:25.849 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-15 23:56:25.896 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-15 23:56:25.958 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-15 23:56:25.959 | INFO     | src.adapters.migros:search_product:68 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-15 23:56:29.911 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:40.964 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-15 23:56:41.091 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-15 23:56:41.224 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-15 23:56:41.345 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-15 23:56:41.469 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-15 23:56:41.592 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-15 23:56:41.719 | DEBUG    | src.adapters.carrefour:search_product:63 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-15 23:56:41.846 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-15 23:56:41.846 | INFO     | src.adapters.carrefour:search_product:71 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-15 23:56:46.087 | DEBUG    | src.adapters.gurmar:search_product:19 - [gurmar] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:50.638 | WARNING  | src.adapters.gurmar:search_product:28 - [gurmar] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:56:50.861 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png
+2026-04-15 23:57:57.447 | DEBUG    | src.adapters.trendyol:search_product:21 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:58:31.618 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").first.locator("a").first
+
+2026-04-15 23:59:01.831 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(1).locator("a").first
+
+2026-04-15 23:59:12.799 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-15 23:59:15.575 | DEBUG    | src.adapters.trendyol:search_product:21 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-15 23:59:31.987 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(2).locator("a").first
+
+2026-04-15 23:59:50.048 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").first.locator("a").first
+
+2026-04-16 00:00:02.154 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(3).locator("a").first
+
+2026-04-16 00:00:02.288 | WARNING  | src.adapters.trendyol:search_product:69 - [trendyol] No confident match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:00:20.143 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(1).locator("a").first
+
+2026-04-16 00:00:50.262 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(2).locator("a").first
+
+2026-04-16 00:01:20.367 | DEBUG    | src.adapters.trendyol:search_product:62 -   card error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("[data-testid='product-card']").nth(3).locator("a").first
+
+2026-04-16 00:01:20.441 | WARNING  | src.adapters.trendyol:search_product:69 - [trendyol] No confident match (score=0): Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:01:24.384 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:01:33.321 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:01:33.388 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-16 00:01:33.450 | DEBUG    | src.adapters.migros:search_product:60 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-16 00:01:33.519 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:01:33.573 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:01:33.629 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-16 00:01:33.696 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-16 00:01:33.812 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-16 00:01:33.812 | INFO     | src.adapters.migros:search_product:68 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:01:37.969 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:01:48.858 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-16 00:01:48.971 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-16 00:01:49.079 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-16 00:01:49.184 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-16 00:01:49.245 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-16 00:01:49.311 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-16 00:01:49.406 | DEBUG    | src.adapters.carrefour:search_product:63 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:01:49.501 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-16 00:01:49.501 | INFO     | src.adapters.carrefour:search_product:71 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:01:53.616 | DEBUG    | src.adapters.gurmar:search_product:19 - [gurmar] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:01:59.198 | WARNING  | src.adapters.gurmar:search_product:28 - [gurmar] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:01:59.407 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png

@@ -1,0 +1,232 @@
+2026-04-16 00:03:26.282 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-16 00:03:29.077 | DEBUG    | src.adapters.trendyol:search_product:19 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:03:33.446 | DEBUG    | src.adapters.trendyol:search_product:61 -    92 |     10.00 TL | Pril Ultra Güç Sıvı Bulaşık Deterjanı Limon Kokulu 1350
+2026-04-16 00:03:33.506 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    763.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 5x1350g Limon 5
+2026-04-16 00:03:33.557 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    634.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g Limon 5
+2026-04-16 00:03:33.735 | DEBUG    | src.adapters.trendyol:search_product:61 -    98 |     14.00 TL | Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g L
+2026-04-16 00:03:33.792 | INFO     | src.adapters.trendyol:search_product:71 - [trendyol] 14.00 TL  score=98  Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x13
+2026-04-16 00:03:37.731 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:03:46.625 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:03:46.749 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-16 00:03:46.857 | DEBUG    | src.adapters.migros:search_product:60 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-16 00:03:46.961 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:03:47.065 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:03:47.173 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-16 00:03:47.308 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-16 00:03:47.420 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-16 00:03:47.421 | INFO     | src.adapters.migros:search_product:68 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:03:51.633 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:04:02.580 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-16 00:04:02.713 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-16 00:04:02.851 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-16 00:04:02.974 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-16 00:04:03.119 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-16 00:04:03.181 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-16 00:04:03.239 | DEBUG    | src.adapters.carrefour:search_product:63 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:04:03.289 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-16 00:04:03.289 | INFO     | src.adapters.carrefour:search_product:71 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:04:07.424 | DEBUG    | src.adapters.gurmar:search_product:19 - [gurmar] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:04:11.922 | WARNING  | src.adapters.gurmar:search_product:28 - [gurmar] No results: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:04:12.164 | DEBUG    | src.adapters.base:_screenshot:59 - Screenshot → gurmar_noresult_001.png
+2026-04-16 00:05:18.667 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-16 00:05:21.484 | DEBUG    | src.adapters.trendyol:search_product:19 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:05:25.979 | DEBUG    | src.adapters.trendyol:search_product:61 -    92 |     10.00 TL | Pril Ultra Güç Sıvı Bulaşık Deterjanı Limon Kokulu 1350
+2026-04-16 00:05:26.102 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    763.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 5x1350g Limon 5
+2026-04-16 00:05:26.168 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    634.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g Limon 5
+2026-04-16 00:05:26.234 | DEBUG    | src.adapters.trendyol:search_product:61 -    98 |     14.00 TL | Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g L
+2026-04-16 00:05:26.290 | INFO     | src.adapters.trendyol:search_product:71 - [trendyol] 14.00 TL  score=98  Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x13
+2026-04-16 00:05:30.653 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:05:39.534 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:05:39.643 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-16 00:05:39.737 | DEBUG    | src.adapters.migros:search_product:60 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-16 00:05:39.841 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:05:39.942 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:05:40.040 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-16 00:05:40.157 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-16 00:05:40.265 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-16 00:05:40.265 | INFO     | src.adapters.migros:search_product:68 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:05:44.102 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:05:55.462 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-16 00:05:55.579 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-16 00:05:55.704 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-16 00:05:55.829 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-16 00:05:55.956 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-16 00:05:56.079 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-16 00:05:56.192 | DEBUG    | src.adapters.carrefour:search_product:63 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:05:56.302 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-16 00:05:56.302 | INFO     | src.adapters.carrefour:search_product:71 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:06:00.377 | DEBUG    | src.adapters.gurmar:search_product:21 - [gurmar] Search: Pril
+2026-04-16 00:06:04.989 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     84.95 TL | Pril Sirke Karışımlı Bulaşık Deterjanı 1100 GR
+2026-04-16 00:06:05.099 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    149.90 TL | Pril Bulaşık Makinası Parlatıcısı 750 Ml
+2026-04-16 00:06:05.197 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    189.90 TL | Pril Bulaşık Makinesi Kapsül Temizleyici 3 Yıkama
+2026-04-16 00:06:05.295 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    199.90 TL | Pril Bulaşık Makinesi Koruyucusu
+2026-04-16 00:06:05.406 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     79.90 TL | Pril Bulaşık Makinesi Tuzu 2 Kg
+2026-04-16 00:06:05.505 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    189.90 TL | Pril Deo-Perls Limon Kokulu Koku Giderici 17 Gr
+2026-04-16 00:06:05.595 | DEBUG    | src.adapters.gurmar:search_product:59 -    80 |    159.90 TL | Pril Elma Kokulu Sıvı Bulaşık Deterjanı 1350 Ml
+2026-04-16 00:06:05.704 | DEBUG    | src.adapters.gurmar:search_product:59 -    80 |     79.95 TL | Pril Elma Kokulu Sıvı Bulaşık Deterjanı 675 Ml
+2026-04-16 00:06:05.704 | INFO     | src.adapters.gurmar:search_product:67 - [gurmar] 159.90 TL  score=80  Pril Elma Kokulu Sıvı Bulaşık Deterjanı 1350 Ml
+2026-04-16 00:06:26.167 | INFO     | src.core.orchestrator:run:44 - === Price Monitor Run 20260416_000626 started ===
+2026-04-16 00:06:26.168 | DEBUG    | src.storage.database:init_db:81 - DB initialised
+2026-04-16 00:06:26.729 | DEBUG    | src.storage.database:upsert_products:104 - Upserted 3 products
+2026-04-16 00:06:26.729 | INFO     | src.storage.product_source:load_inventory:63 - Loaded 3 products from inventory (3 active)
+2026-04-16 00:06:26.729 | INFO     | src.core.orchestrator:run:52 - Loaded 3 active products.
+2026-04-16 00:06:26.729 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: trendyol ---
+2026-04-16 00:06:29.448 | DEBUG    | src.adapters.trendyol:ensure_region:13 - [trendyol] No region selection needed for public prices
+2026-04-16 00:06:29.448 | DEBUG    | src.adapters.trendyol:search_product:19 - [trendyol] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:06:33.751 | DEBUG    | src.adapters.trendyol:search_product:61 -    92 |     10.00 TL | Pril Ultra Güç Sıvı Bulaşık Deterjanı Limon Kokulu 1350
+2026-04-16 00:06:33.871 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    763.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 5x1350g Limon 5
+2026-04-16 00:06:33.936 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |    634.90 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g Limon 5
+2026-04-16 00:06:34.002 | DEBUG    | src.adapters.trendyol:search_product:61 -    98 |     14.00 TL | Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x1350g L
+2026-04-16 00:06:34.062 | INFO     | src.adapters.trendyol:search_product:71 - [trendyol] 14.00 TL  score=98  Pril Power Elde Yıkama Sıvı Bulaşık Deterjanı 4x13
+2026-04-16 00:06:34.125 | INFO     | src.core.discount:evaluate:32 - [trendyol] Baseline set → Pril Sıvı Bulaşık Deterjanı: 14.00 TL
+2026-04-16 00:06:36.128 | DEBUG    | src.adapters.trendyol:search_product:19 - [trendyol] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-16 00:06:40.546 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |    965.00 TL | Selpak Extra Tuvalet Kağıdı Kaşmir Özlü 32'li x 2 Adet
+2026-04-16 00:06:40.619 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |   1080.96 TL | Selpak Üç Katlı Extra Tuvalet Kağıdı Pamuksu Doku 32'li
+2026-04-16 00:06:40.686 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |   1379.00 TL | Selpak Üç Katlı Extra Tuvalet Kağıdı Pamuksu Doku 32'li
+2026-04-16 00:06:40.749 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |      1.00 TL | Papia Tuvalet Kağıdı 3 Katlı Kokulu 32 Li X 3 Adet
+2026-04-16 00:06:40.806 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |      1.00 TL | Papia Tuvalet Kağıdı 3x32'lı 96 Adet
+2026-04-16 00:06:40.922 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |      1.00 TL | Papia Tuvalet Kağıdı 3x32'li 96 Adet
+2026-04-16 00:06:41.053 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |      1.00 TL | Papia 3 Katlı Tuvalet Kağıdı 2 Adet X 32 Rulo
+2026-04-16 00:06:41.169 | DEBUG    | src.adapters.trendyol:search_product:61 -    40 |      1.00 TL | Papia Tuvalet Kağıdı 3 Katlı 32'li 2 Adet
+2026-04-16 00:06:41.169 | INFO     | src.adapters.trendyol:search_product:71 - [trendyol] 965.00 TL  score=40  Selpak Extra Tuvalet Kağıdı Kaşmir Özlü 32'li x 2 
+2026-04-16 00:06:41.228 | INFO     | src.core.discount:evaluate:32 - [trendyol] Baseline set → Solo Tuvalet Kağıdı: 965.00 TL
+2026-04-16 00:06:43.243 | DEBUG    | src.adapters.trendyol:search_product:19 - [trendyol] Search: Elseve Şampuan 300ml
+2026-04-16 00:06:48.287 | DEBUG    | src.adapters.trendyol:search_product:61 -    95 |     10.00 TL | Elseve Hydra [Hyaluronic] Pure Salisilik Asit İçeren Ya
+2026-04-16 00:06:48.376 | DEBUG    | src.adapters.trendyol:search_product:61 -   113 |    179.95 TL | Elseve Glycolic Gloss Parlaklık Veren Bakım Şampuanı 30
+2026-04-16 00:06:48.451 | DEBUG    | src.adapters.trendyol:search_product:61 -   101 |     10.00 TL | Elseve L'Oréal Paris Elseve Hydra [Hyaluronic] Nem Dold
+2026-04-16 00:06:48.509 | DEBUG    | src.adapters.trendyol:search_product:61 -    86 |     10.00 TL | Elseve Mucizevi Yağ Besleyici Bakım Şampuanı 300 ml
+2026-04-16 00:06:48.575 | DEBUG    | src.adapters.trendyol:search_product:61 -    70 |     10.00 TL | Elseve Glycolic Gloss Mükemmel Parlaklık Veren Saç Bakı
+2026-04-16 00:06:48.632 | DEBUG    | src.adapters.trendyol:search_product:61 -    86 |     10.00 TL | Elseve Color Vive Renk Koruyucu Bakım Şampuanı 300 ml
+2026-04-16 00:06:48.693 | DEBUG    | src.adapters.trendyol:search_product:61 -    80 |     10.00 TL | Elseve Hydra [hyaluronic] Nem Dolduran Şampuan 300 Ml 3
+2026-04-16 00:06:48.756 | DEBUG    | src.adapters.trendyol:search_product:61 -    86 |     10.00 TL | Elseve Komple Onarıcı 5 Yapılandırıcı Bakım Şampuanı 30
+2026-04-16 00:06:48.756 | INFO     | src.adapters.trendyol:search_product:71 - [trendyol] 179.95 TL  score=113  Elseve Glycolic Gloss Parlaklık Veren Bakım Şampua
+2026-04-16 00:06:48.772 | INFO     | src.core.discount:evaluate:32 - [trendyol] Baseline set → Elseve Şampuan: 179.95 TL
+2026-04-16 00:06:52.555 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: amazon ---
+2026-04-16 00:07:01.760 | DEBUG    | src.adapters.amazon:ensure_region:31 - [amazon] Region already Izmir
+2026-04-16 00:07:01.760 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:07:06.017 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |     55.96 TL | Pril Türkiye Serisi - Amasya Elma Kokulu Elde Yıkama Sı
+2026-04-16 00:07:06.284 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |     70.18 TL | Pril Adana Portakalı Türkiye Serisi Sıvı Bulaşık Deterj
+2026-04-16 00:07:06.391 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    409.80 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı (1 x 4 KG) ve 
+2026-04-16 00:07:06.572 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    199.90 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-16 00:07:06.800 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 95 |    118.46 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amasya El
+2026-04-16 00:07:06.998 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    132.79 TL | Pril Power Limon Kokulu 5+ Yağ Çözme Etkili Elde Yıkama
+2026-04-16 00:07:07.186 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    199.90 TL | Pril Limon Kokulu Sıvı Bulaşık Deterjanı 1 x 4 KG, Limo
+2026-04-16 00:07:07.406 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    209.90 TL | Pril Elma Kokulu Elde Yıkama Sıvı Bulaşık Deterjanı 1 x
+2026-04-16 00:07:07.406 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 118.46 TL  score=95  Pril Elde Yıkama Sıvı Bulaşık Deterjanı 1350g Amas
+2026-04-16 00:07:07.422 | DEBUG    | src.core.discount:evaluate:41 - [amazon] Pril Sıvı Bulaşık Deterjanı | baseline=14.00  now=118.46  drop=-746.1%  threshold=25.0%
+2026-04-16 00:07:09.423 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-16 00:07:13.583 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 40 |    619.00 TL | Flushable Islak Tuvalet Kağıdı Kovalı Set 500 Adet – 50
+2026-04-16 00:07:13.809 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    248.11 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:13.941 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 80 |    349.99 TL | Solo Tuvalet Kağıdı 32'li Beyaz
+2026-04-16 00:07:14.024 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    312.71 TL | SOLO Bambu Katkılı Tuvalet Kağıdı 40’lı
+2026-04-16 00:07:14.100 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    159.95 TL | Solo Tuvalet Kağıdı Bambu Katkılı 16'lı
+2026-04-16 00:07:14.185 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    209.01 TL | Teno Pudra Kokulu Tuvalet Kağıdı 32 Adet
+2026-04-16 00:07:14.312 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 83 |    367.11 TL | SOLO Tuvalet Kağıdı 48 li Bambu
+2026-04-16 00:07:14.476 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    127.57 TL | Solo Tuvalet Kağıdı Bambu Katkılı 12'li
+2026-04-16 00:07:14.476 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 248.11 TL  score=86  SOLO Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:14.528 | DEBUG    | src.core.discount:evaluate:41 - [amazon] Solo Tuvalet Kağıdı | baseline=965.00  now=248.11  drop=74.3%  threshold=25.0%
+2026-04-16 00:07:14.538 | INFO     | src.core.discount:evaluate:57 - [amazon] ALERT Solo Tuvalet Kağıdı 965.00 → 248.11 TL  (-%74.3)
+2026-04-16 00:07:15.470 | INFO     | src.notifications.telegram:send_alert:69 - [telegram] Alert sent: Solo Tuvalet Kağıdı -74.3%
+2026-04-16 00:07:17.479 | DEBUG    | src.adapters.amazon:search_product:86 - [amazon] Search: Elseve Şampuan 300ml
+2026-04-16 00:07:21.863 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    677.00 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-16 00:07:21.983 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 58 |    896.00 TL | L'Oréal Professionnel Paris Serie Expert Vitamino Color
+2026-04-16 00:07:22.108 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    870.05 TL | L'Oréal Professionnel Paris Serie Expert Absolut Repair
+2026-04-16 00:07:22.235 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 55 |    386.62 TL | Bioxcin Forte Şampuan 300ml 3al2 Öde
+2026-04-16 00:07:22.366 | DEBUG    | src.adapters.amazon:search_product:127 -   score=113 |    161.95 TL | ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampuanı 30
+2026-04-16 00:07:22.551 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    136.03 TL | L'Oréal Paris Elseve Colorvive Renk Koruyucu Bakım Şamp
+2026-04-16 00:07:22.738 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    174.92 TL | L'Oréal Paris Elseve Hydra [Hyaluronic] Nem Dolduran Ba
+2026-04-16 00:07:22.921 | DEBUG    | src.adapters.amazon:search_product:127 -   score= 86 |    139.00 TL | L'Oreal Paris Elseve Mucizevi Yağ Besleyici Bakım Şampu
+2026-04-16 00:07:22.921 | INFO     | src.adapters.amazon:search_product:137 - [amazon] ✓ 161.95 TL  score=113  ELSEVE Glycolic Gloss Parlaklık Veren Bakım Şampua
+2026-04-16 00:07:22.973 | DEBUG    | src.core.discount:evaluate:41 - [amazon] Elseve Şampuan | baseline=179.95  now=161.95  drop=10.0%  threshold=25.0%
+2026-04-16 00:07:26.761 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: migros ---
+2026-04-16 00:07:29.076 | DEBUG    | src.adapters.migros:ensure_region:14 - [migros] No region selection for public browsing
+2026-04-16 00:07:29.076 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:07:38.063 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:07:38.164 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    249.95 TL | Pril Sıvı Bulaşık Deterjanı 4kg Limon
+2026-04-16 00:07:38.257 | DEBUG    | src.adapters.migros:search_product:60 -    80 |     89.95 TL | Pril Elde Yıkama Sıvı Bulaşık Deterjanı 750ml Losyon Al
+2026-04-16 00:07:38.359 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Amasya Elması Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:07:38.463 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    174.95 TL | Pril Adana Portakalı Kokulu Bulaşık Deterjanı 1.306 L
+2026-04-16 00:07:38.565 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     89.95 TL | Pril Adana Portakal Kokulu Bulaşık Deterjanı 653 Ml
+2026-04-16 00:07:38.668 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    287.95 TL | Pril Excellence Bulaşık Kapsülü 22'li 398,2 G
+2026-04-16 00:07:38.758 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    632.95 TL | Pril Excellence Bulaşık Kapsülü 60'lı 1.086 G
+2026-04-16 00:07:38.758 | INFO     | src.adapters.migros:search_product:68 - [migros] 249.95 TL  score=80  Pril Sıvı Bulaşık Deterjanı 4kg Elma
+2026-04-16 00:07:38.806 | DEBUG    | src.core.discount:evaluate:41 - [migros] Pril Sıvı Bulaşık Deterjanı | baseline=14.00  now=249.95  drop=-1685.4%  threshold=25.0%
+2026-04-16 00:07:40.812 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-16 00:07:49.504 | DEBUG    | src.adapters.migros:search_product:60 -    86 |    399.95 TL | Solo Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.552 | DEBUG    | src.adapters.migros:search_product:60 -    86 |    229.95 TL | Solo Bambu Katkılı Tuvalet Kağıdı 16'lı
+2026-04-16 00:07:49.600 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    519.95 TL | Sofia Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.657 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    549.95 TL | Papia 3 Katlı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.707 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    419.95 TL | Familia Plus Natural Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.747 | DEBUG    | src.adapters.migros:search_product:60 -    43 |    549.95 TL | Selpak Deluxe Pamuk Katkılı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.797 | DEBUG    | src.adapters.migros:search_product:60 -    40 |    239.95 TL | Solo Asılabilir Havlu 1=7 Rulo 325 Yaprak
+2026-04-16 00:07:49.836 | DEBUG    | src.adapters.migros:search_product:60 -    40 |     54.95 TL | Minies Islak Tuvalet Kağıdı 60'lı
+2026-04-16 00:07:49.836 | INFO     | src.adapters.migros:search_product:68 - [migros] 399.95 TL  score=86  Solo Bambu Katkılı Tuvalet Kağıdı 32'li
+2026-04-16 00:07:49.864 | DEBUG    | src.core.discount:evaluate:41 - [migros] Solo Tuvalet Kağıdı | baseline=965.00  now=399.95  drop=58.6%  threshold=25.0%
+2026-04-16 00:07:49.868 | INFO     | src.core.discount:evaluate:57 - [migros] ALERT Solo Tuvalet Kağıdı 965.00 → 399.95 TL  (-%58.6)
+2026-04-16 00:07:50.561 | INFO     | src.notifications.telegram:send_alert:69 - [telegram] Alert sent: Solo Tuvalet Kağıdı -58.6%
+2026-04-16 00:07:52.569 | DEBUG    | src.adapters.migros:search_product:20 - [migros] Search: Elseve Şampuan 300ml
+2026-04-16 00:08:01.395 | DEBUG    | src.adapters.migros:search_product:60 -    86 |    199.95 TL | Elseve Komple Onarıcı 5 Bakım Şampuanı 300 Ml
+2026-04-16 00:08:01.487 | DEBUG    | src.adapters.migros:search_product:60 -    86 |    244.95 TL | Elseve Komple Direnç Dökülme Karşıtı Bakım Şampuanı 400
+2026-04-16 00:08:01.590 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    552.95 TL | Elseve Mucizevi Yağ Şampuan 400 Ml + Krem 150 Ml
+2026-04-16 00:08:01.687 | DEBUG    | src.adapters.migros:search_product:60 -    89 |    427.95 TL | L'Oréal Paris Elseve Glycolic Gloss Bakım Yapan Şampuan
+2026-04-16 00:08:01.787 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    542.95 TL | L'Oréal Paris Elseve Turunculaşma Karşıtı Mor Şampuan 2
+2026-04-16 00:08:01.876 | DEBUG    | src.adapters.migros:search_product:60 -    80 |    429.95 TL | Elseve Growth Booster Döküntü Karşıtı Şampuan 200 Ml
+2026-04-16 00:08:01.981 | DEBUG    | src.adapters.migros:search_product:60 -    86 |    199.95 TL | Elseve Mucizevi Yağ Besleyici Bakım Şampuanı 300 Ml
+2026-04-16 00:08:02.074 | DEBUG    | src.adapters.migros:search_product:60 -    98 |    257.95 TL | Elseve Glycolic Gloss Parlaklık Veren Bakım Şampuanı 30
+2026-04-16 00:08:02.074 | INFO     | src.adapters.migros:search_product:68 - [migros] 257.95 TL  score=98  Elseve Glycolic Gloss Parlaklık Veren Bakım Şampua
+2026-04-16 00:08:02.140 | DEBUG    | src.core.discount:evaluate:41 - [migros] Elseve Şampuan | baseline=179.95  now=257.95  drop=-43.3%  threshold=25.0%
+2026-04-16 00:08:05.800 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: carrefour ---
+2026-04-16 00:08:08.184 | DEBUG    | src.adapters.carrefour:ensure_region:13 - [carrefour] No region selection for public browsing
+2026-04-16 00:08:08.184 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Pril Sıvı Bulaşık Deterjanı 1350g
+2026-04-16 00:08:18.829 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 1
+2026-04-16 00:08:18.947 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Adana Portakalı
+2026-04-16 00:08:19.054 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Amasya Elması 6
+2026-04-16 00:08:19.168 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    159.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 135
+2026-04-16 00:08:19.272 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     79.95 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Power Limon 675
+2026-04-16 00:08:19.384 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |    244.90 TL | Pril Sıvı Elde Bulaşık Yıkama Deterjanı Limon 2,5 Kg
+2026-04-16 00:08:19.505 | DEBUG    | src.adapters.carrefour:search_product:63 -    43 |     99.90 TL | Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:08:19.629 | DEBUG    | src.adapters.carrefour:search_product:63 -    40 |     89.95 TL | Fairy Sıvı Bulaşık Deterjanı Elma 650 ml
+2026-04-16 00:08:19.630 | INFO     | src.adapters.carrefour:search_product:71 - [carrefour] 99.90 TL  score=43  Pril Sirke Etkili Bulaşık Deterjanı 1100 ml
+2026-04-16 00:08:19.683 | DEBUG    | src.core.discount:evaluate:41 - [carrefour] Pril Sıvı Bulaşık Deterjanı | baseline=14.00  now=99.90  drop=-613.6%  threshold=25.0%
+2026-04-16 00:08:21.686 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Solo Tuvalet Kağıdı 32 adet
+2026-04-16 00:08:28.500 | WARNING  | src.adapters.carrefour:search_product:28 - [carrefour] No results: Solo Tuvalet Kağıdı 32 adet
+2026-04-16 00:08:28.500 | DEBUG    | src.adapters.carrefour:search_product:19 - [carrefour] Search: Elseve Şampuan 300ml
+2026-04-16 00:08:35.152 | WARNING  | src.adapters.carrefour:search_product:28 - [carrefour] No results: Elseve Şampuan 300ml
+2026-04-16 00:08:36.828 | INFO     | src.core.orchestrator:_run_retailer:63 - --- Retailer: gurmar ---
+2026-04-16 00:08:39.283 | DEBUG    | src.adapters.gurmar:ensure_region:13 - [gurmar] Izmir-only store — no region selection needed
+2026-04-16 00:08:39.283 | DEBUG    | src.adapters.gurmar:search_product:21 - [gurmar] Search: Pril
+2026-04-16 00:08:43.632 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     84.95 TL | Pril Sirke Karışımlı Bulaşık Deterjanı 1100 GR
+2026-04-16 00:08:43.722 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    149.90 TL | Pril Bulaşık Makinası Parlatıcısı 750 Ml
+2026-04-16 00:08:43.813 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    189.90 TL | Pril Bulaşık Makinesi Kapsül Temizleyici 3 Yıkama
+2026-04-16 00:08:43.911 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    199.90 TL | Pril Bulaşık Makinesi Koruyucusu
+2026-04-16 00:08:44.010 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     79.90 TL | Pril Bulaşık Makinesi Tuzu 2 Kg
+2026-04-16 00:08:44.107 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    189.90 TL | Pril Deo-Perls Limon Kokulu Koku Giderici 17 Gr
+2026-04-16 00:08:44.196 | DEBUG    | src.adapters.gurmar:search_product:59 -    80 |    159.90 TL | Pril Elma Kokulu Sıvı Bulaşık Deterjanı 1350 Ml
+2026-04-16 00:08:44.294 | DEBUG    | src.adapters.gurmar:search_product:59 -    80 |     79.95 TL | Pril Elma Kokulu Sıvı Bulaşık Deterjanı 675 Ml
+2026-04-16 00:08:44.294 | INFO     | src.adapters.gurmar:search_product:67 - [gurmar] 159.90 TL  score=80  Pril Elma Kokulu Sıvı Bulaşık Deterjanı 1350 Ml
+2026-04-16 00:08:44.335 | DEBUG    | src.core.discount:evaluate:41 - [gurmar] Pril Sıvı Bulaşık Deterjanı | baseline=14.00  now=159.90  drop=-1042.1%  threshold=25.0%
+2026-04-16 00:08:46.339 | DEBUG    | src.adapters.gurmar:search_product:21 - [gurmar] Search: Solo
+2026-04-16 00:08:49.904 | DEBUG    | src.adapters.gurmar:search_product:59 -    43 |    149.90 TL | Solo Bambu Havlu Kağıt 8'li
+2026-04-16 00:08:49.961 | DEBUG    | src.adapters.gurmar:search_product:59 -    43 |    225.90 TL | Solo Bambu Kağı havlu 16'lı
+2026-04-16 00:08:50.019 | DEBUG    | src.adapters.gurmar:search_product:59 -    83 |    299.90 TL | Solo Bambu Tuvalet Kağıdı 32'li
+2026-04-16 00:08:50.076 | DEBUG    | src.adapters.gurmar:search_product:59 -    83 |    425.90 TL | Solo Bambu Tuvalet Kağıdı 40'lı
+2026-04-16 00:08:50.136 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     99.90 TL | Solo Beyaz Sabun Yüzey Temizlik Havlusu 100'lü
+2026-04-16 00:08:50.193 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     79.90 TL | Solo Dev Rulo Havlu
+2026-04-16 00:08:50.252 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |     49.90 TL | Solo Islak Havlu 90'lı
+2026-04-16 00:08:50.311 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    125.90 TL | Solo Kağıt Havlu 6'lı
+2026-04-16 00:08:50.311 | INFO     | src.adapters.gurmar:search_product:67 - [gurmar] 299.90 TL  score=83  Solo Bambu Tuvalet Kağıdı 32'li
+2026-04-16 00:08:50.344 | DEBUG    | src.core.discount:evaluate:41 - [gurmar] Solo Tuvalet Kağıdı | baseline=965.00  now=299.90  drop=68.9%  threshold=25.0%
+2026-04-16 00:08:50.348 | INFO     | src.core.discount:evaluate:57 - [gurmar] ALERT Solo Tuvalet Kağıdı 965.00 → 299.90 TL  (-%68.9)
+2026-04-16 00:08:51.359 | INFO     | src.notifications.telegram:send_alert:69 - [telegram] Alert sent: Solo Tuvalet Kağıdı -68.9%
+2026-04-16 00:08:53.367 | DEBUG    | src.adapters.gurmar:search_product:21 - [gurmar] Search: Elseve
+2026-04-16 00:08:56.899 | DEBUG    | src.adapters.gurmar:search_product:59 -    43 |    419.90 TL | Elseve Bukle Belirginleştirici Saç Bakım Kremi 200 Ml
+2026-04-16 00:08:56.949 | DEBUG    | src.adapters.gurmar:search_product:59 -    80 |    599.90 TL | Elseve Color Vive Turunculaşma Karşıtı Mor Şampuan 200 
+2026-04-16 00:08:56.998 | DEBUG    | src.adapters.gurmar:search_product:59 -    43 |    699.90 TL | Elseve Extra Ordinary Oil Saç Bakım Yağı 100 Ml
+2026-04-16 00:08:57.047 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    257.95 TL | Elseve Hydra Pure Saç Kremi 250 Ml
+2026-04-16 00:08:57.096 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    469.90 TL | Elseve Mucizevi Yağ Saç Güzelleştirici Krem 150 Gr
+2026-04-16 00:08:57.146 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    469.90 TL | Elseve Mucizevi Yağ Saç Güzelleştirici Krem 150 Ml
+2026-04-16 00:08:57.203 | DEBUG    | src.adapters.gurmar:search_product:59 -    43 |    419.90 TL | Loreal Elseve Dream Long Bye-Bye Makas Durulanmayan Saç
+2026-04-16 00:08:57.260 | DEBUG    | src.adapters.gurmar:search_product:59 -    40 |    599.90 TL | Loreal Paris Elseve 6 Mucizevi Yağ Besleyici Maske 300 
+2026-04-16 00:08:57.260 | INFO     | src.adapters.gurmar:search_product:67 - [gurmar] 599.90 TL  score=80  Elseve Color Vive Turunculaşma Karşıtı Mor Şampuan
+2026-04-16 00:08:57.280 | DEBUG    | src.core.discount:evaluate:41 - [gurmar] Elseve Şampuan | baseline=179.95  now=599.90  drop=-233.4%  threshold=25.0%
+2026-04-16 00:09:01.738 | INFO     | src.core.orchestrator:_print_summary:127 - === Run complete | checked=15 matched=13 alerts=3 failed=2 ===
